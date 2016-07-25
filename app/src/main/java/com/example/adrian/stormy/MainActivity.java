@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         currentWeather.setTemperature(currently.getDouble("temperature"));
         currentWeather.setTimeZone(timezone);
 
-        
+
         return new CurrentWeather();
     }
 
